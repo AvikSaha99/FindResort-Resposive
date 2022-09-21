@@ -1,0 +1,133 @@
+/* Overall */
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+/* Navigation bar */
+#Head_Section{
+    background-color: #C6DCE4;
+    margin: 0;
+}
+.navbar-brand{
+    font-family: "Combo";
+    text-decoration: underline;
+}
+.navbar{
+    padding-left:8%;
+    padding-right:8%;
+}
+.nav-item{
+    padding-right: 16px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+/* Header Section */
+
+.heading{
+    padding-left: 35px;
+    padding-right: 70px;
+}
+.head{
+    padding-top: 180px;
+    padding-bottom: 10px;
+    font-size: 3.5rem;
+}
+.db{
+    margin: 5% 3% 5% 0;
+}
+i{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.title-image{
+    width: 80%;
+    padding-bottom: 50px;
+    margin: 85px;
+    padding-top: 35px;
+}
+@media (max-width: 900px) {
+    .container{
+        text-align: center;
+    }
+    .head{
+        padding-top: 10px;
+    }
+    .title-image{
+        margin: auto;
+    }
+  }
+
+/* Middle Section */
+
+#Middle{
+    background-color: #FFE6E6;
+    padding: 15% 7%;
+    text-align: center;
+}
+.icon{
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+.subtitle{
+    color: rgb(141, 143, 142);
+}
+
+/* Our Reviews */
+#reviews{
+    background-color: #C6DCE4;
+    text-align: center;
+    
+}
+.Reviews{
+    padding-top: 75px;
+    padding-bottom: 0px;
+}
+.Carousel-padd{
+    padding-bottom: 20px;
+}
+.carousel-item{
+    padding: 3% 27%;
+}
+.control-icon{
+    background-color: #acc4cd;
+}
+
+/* Pricing */
+#Pricing{
+    background-color: #FFE6E6;
+    padding: 7% 10%;
+}
+
+/*CTA*/
+
+#CTA{
+    background-color: #C6DCE4;
+    padding: 5% 5%;
+    text-align: center;
+}
+.cta{
+    width: 60%;
+    margin: auto; 
+}
+
+/* Copyright */
+#copyright{
+    background-color: #FFE6E6;
+    padding: 5% 5%;
+    text-align: center;
+}
+.social-icons{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    color: #acc4cd;
+}
+.copyright{
+    margin-top: 15px;
+    color: #8a999f;
+}
